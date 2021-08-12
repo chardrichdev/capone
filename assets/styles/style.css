@@ -16,14 +16,14 @@ body {
 	margin: auto;
 }
 
-.container > a {
-	font: white;
-}
-
 .navbar.navbar-expand-lg.navbar-light a {
     color: white;
 }
 
-.footerlinkblock {
-	display: inline-block;
+#form h5,label,small {
+	color: white;
+}
+
+#footer a {
+	color: white;
 }
