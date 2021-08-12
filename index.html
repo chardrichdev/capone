@@ -21,7 +21,7 @@
 
     <div class="container-fluid" id="base">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#landing">Chard | Portfolio</a>
+        <a class="navbar-brand" href="#base">Chard | Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,7 +31,7 @@
               <a class="nav-link" href="#base">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#landing">Special Projects</a>
+              <a class="nav-link" href="#base">Special Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#aboutandcontactme">About</a>
@@ -48,7 +48,7 @@
             <h1 class="display-4">Hello, digital world!</h1>
             <p class="lead">My name is Chard and I am a full stack developer. </p>
             <hr class="my-4">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Ping me!</a>
+            <a class="btn btn-primary btn-lg" href="#aboutandcontactme" role="button">Ping me!</a>
           </div>
         </div>
         <div class="col-12">
@@ -91,12 +91,12 @@
         </div>
         <div class="col-12 col-md-6">
           <form>
-            <h5 class="contactme mb-3 mt-3">Contact me!</h5>
-            <div class="form-group mb-4">
+            <h5 class="contactme mt-3">Contact me!</h5>
+            <div class="form-group">
               <label for="exampleInputName">How do you want me to call(name) you?</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="text" class="form-control" id="exampleInputName" aria-describedby="Name">
             </div>
-            <div class="form-group mb-4">
+            <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
@@ -104,18 +104,28 @@
               <label for="exampleInputPhone">Phone Number</label>
               <input type="number" class="form-control" id="exampleInputPhone">
             </div>
-            <button type="submit" class="btn btn-primary mb-3">Submit</button>
-            <small class="form-text">We'll never share your info with anyone else.</small>
+            <div class="form-group">
+              <label for="exampleFormControlMessage">Message</label>
+              <textarea class="form-control" id="exampleFormControlMessage" rows="3"></textarea>
+              <small class="form-text">I'll never share your info with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </div>
-      <div class="row bg-transparent" id="footer">
-        <div class="col d-flex justify-content-around">
+
+     
+        <div class="footer">
           <a href="#base">Home</a>
           <a href="#aboutandcontactme">About</a>
           <a href="#aboutandcontactme">Contact</a>
         </div>
-      </div>
+        <div class="socmed">
+          <p>Follow me on</p>
+          <p>|</p>
+          <a href="https://www.facebook.com">Facebook</a> 
+          <a href="https://www.instagram.com/">Instagram</a> 
+        </div>   
     </div>
 
      <!--  <div class="row d-flex justify-content-center mb-3" id="contactme">
@@ -140,9 +150,6 @@
         </div>
       </div> -->
 
-
-
-I am a full stack developer. My technical expertise covers different technologies such as html5, css, javascript, react, mysql to name a few. I have worked with multiple clients and have created hundreds of websites. My goal is to reach out to anyone who wants to have a website of their own at a reasonable cost to help them grow their business and be competitive in the digital world
 <!-- 
          <div class="col-12 col-md-6">
            <form>

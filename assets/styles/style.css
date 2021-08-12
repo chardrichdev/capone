@@ -24,6 +24,10 @@ body {
 	color: white;
 }
 
+#landing label {
+	color: black;
+}
+
 #aboutandcontactme img {
 	max-width: 70%;
 	height: auto;
@@ -33,6 +37,36 @@ body {
 #aboutandcontactme .card-text {
 	font-size: small;
 }
-#footer a {
-	color: white;
+
+.footer {
+	display: flex;
+	justify-content: center;
 }
+
+.footer a {
+	color: white;
+	text-align: center;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.socmed {
+	display: flex;
+	justify-content: center;
+}
+
+.socmed p {
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+}
+
+.socmed a {
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
