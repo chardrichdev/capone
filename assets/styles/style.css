@@ -12,7 +12,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	text-align: center;
-	max-width: 800px;
+	max-width: auto;
 	margin: auto;
 }
 
@@ -20,10 +20,19 @@ body {
     color: white;
 }
 
-#form h5,label,small {
+#aboutandcontactme h5,label,small {
 	color: white;
 }
 
+#aboutandcontactme img {
+	max-width: 70%;
+	height: auto;
+	margin: auto;
+}
+
+#aboutandcontactme .card-text {
+	font-size: small;
+}
 #footer a {
 	color: white;
 }
